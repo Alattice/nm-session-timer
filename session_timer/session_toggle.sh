@@ -1,5 +1,5 @@
 #!/bin/sh
-SESSION_FILE="/mnt/onboard/.adds/nm-session-timer/timed_session"
+SESSION_FILE="/mnt/onboard/.adds/session_timer/timed_session"
 readable_date=$(date +"%l:%M%p")
 if [ ! -f "$SESSION_FILE" ]; then
     # File doesn't exist, create it with current time
