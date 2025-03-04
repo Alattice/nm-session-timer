@@ -14,4 +14,6 @@ if [ -f "$SESSION_FILE" ]; then
         echo "Session lasted ${hours}hours & ${minutes}mins"
     fi
     rm $SESSION_FILE
+else
+    echo "No session was started"
 fi
